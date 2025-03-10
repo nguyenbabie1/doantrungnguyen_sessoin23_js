@@ -10,7 +10,7 @@ if (isNaN(number) || number < 0) {
         let input;
         do {
             input = prompt(`Nhập phần tử thứ ${i + 1}:`);
-        } while (isNaN(input)); // Kiểm tra nhập số hợp lệ
+        } while (isNaN(input)); 
         arr.push(Number(input));
     }
 
